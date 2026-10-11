@@ -1,0 +1,6 @@
+
+services:
+  attrition-app:
+    build: .
+    image: employee-attrition-ml
+    container_name: attrition-compose-container
